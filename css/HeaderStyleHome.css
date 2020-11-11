@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body{
+	font: 15px/30px arial, sans-serif;
+	background-color: white;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}
+
+.header_utama{
+	width: 100%;
+	height: 100px;
+	background: white;
+	position: fixed;
+	top: 0px;
+	z-index: 9999;
+}
+
+.sub_header{
+	display: inline-block;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	left: 100px;
+	right: 100px;
+}
+
+.logo a{
+	display: inline-block;
+	margin-top: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+.item_nav{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font: normal normal bold 18px cursive, sans-serif ;
+	position: absolute;
+	left: 200px;
+	right: 200px;
+}
+
+
+/*mengatur menu navigasi horisontal*/
+.item_nav li{
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/*mengatur jarak antar list item navigasi*/
+.item_nav li .menu1{
+	display: inline-block;
+	color: black;
+	padding-left: 50px;
+	margin-right: 25px;
+	text-decoration: none;
+}
+
+/*mengatur efek psudo class*/
+.item_nav li .menu1:hover{
+	color: lightskyblue;
+}
+
+.item_sosmed{
+	position: absolute;
+	background-color: white;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 800px;
+	padding-left: 20px;
+} 
+
+/*mengatur menu navigasi contact*/
+
+a.iconWA{
+	position: absolute;
+	top: 30px;
+	right:100px;
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	background-color: orange;
+	border: 3px solid orange;
+	color: white;
+	border-radius : 40%;
+	font: 15px cursive;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+a.iconIG{
+	position: absolute;
+	top: 33px;
+	right: 50px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 20%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px;
+	background-image: url(../img/instagram.png);
+	margin-right: auto;
+	opacity: 0.5;
+}
+
+a.iconWA:hover{
+	color: orange;
+	border: 3px solid orange;
+	background-color: white;
+}
+
+a.iconIG:hover{
+	border-radius: 50%;
+	background-color: skyblue;
+	opacity: 1;
+}
+
+
+
+/*mengatur jarak antar list item navigasi*/
