@@ -96,7 +96,7 @@ body{
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	bottom: 0px;
+	bottom: 0px; 
 }
 
 
@@ -171,7 +171,7 @@ a.iconIG{
 	background-size: 20px;
 	background-image: url(../img/instagram.png);
 	margin-right: auto;
-	opacity: 0.5;
+	filter: grayscale(100%);
 }
 
 a.iconWA:hover{
@@ -183,7 +183,8 @@ a.iconWA:hover{
 a.iconIG:hover{
 	border-radius: 50%;
 	background-color: skyblue;
-	opacity: 1;
+	filter: grayscale(0%);
+	filter: brightness(130%);
 }
 
 
