@@ -56,42 +56,51 @@ body{
 
 .container {
 	width: 100%;
-	margin: auto;
-	background-color: white;
+	background-color: salmon;
 }
 
 .header_utama{
 	width: 100%;
-	height: 100px;
+	height: 75px;
 	background: white;
 	position: fixed;
-	z-index: 9999;
 	top: 0px;
+	z-index: 100;
 }
 
 .sub_header{
 	display: inline-block;
-	/*width: 90%;*/
-	height: 100px;
+	height: 75px;
 	background-color: white;
 	position: absolute;
 	left: 100px;
 	right: 100px;
 }
 
-.logo a{
+.logo{
 	display: inline-block;
-	margin-top: 10px;
+	position: absolute;
+	left: 0px;
+	top: 5px;
+	bottom: 5px;
+	width: 200px;
+	height: 65px;
+}
+
+.logo a{
+	background-size: cover;
+	background-image: url(../img/portfolio.png);
+	display: block;
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	right: 0px;
+	bottom: 0px;
 }
 
 
-.item_nav{
-	margin-top: 25px;
-	margin-bottom: 25px;
-	font: normal normal bold 18px cursive, sans-serif ;
+.item_nav{	
+	font: normal normal bold 18px cursive, sans-serif;
 	position: absolute;
 	left: 200px;
 	right: 200px;
@@ -101,7 +110,7 @@ body{
 /*mengatur menu navigasi horisontal*/
 .item_nav li{
 	display: inline-block;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-bottom: 15px;
 }
 
@@ -133,7 +142,7 @@ body{
 
 a.iconWA{
 	position: absolute;
-	top: 30px;
+	top: 15px;
 	right:100px;
 	display: inline-block;
 	width: 150px;
@@ -150,7 +159,7 @@ a.iconWA{
 
 a.iconIG{
 	position: absolute;
-	top: 33px;
+	top: 18px;
 	right: 50px;
 	display: inline-block;
 	width: 40px;
