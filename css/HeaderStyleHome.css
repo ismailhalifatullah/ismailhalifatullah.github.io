@@ -8,92 +8,47 @@ body{
 	background-color: salmon;
 }
 
-.header_utama{
+
+nav{
+	display: flex;
+	justify-content: space-around;
 	width: 100%;
 	height: 75px;
-	background: white;
+	background-color: white;
 	position: fixed;
-	top: 0px;
+	top: 0;
 	z-index: 100;
 }
 
-.sub_header{
-	display: inline-block;
-	height: 75px;
-	background-color: white;
-	position: absolute;
-	left: 100px;
-	right: 100px;
-}
-
 .logo{
-	display: inline-block;
-	position: absolute;
-	left: 0px;
-	top: 5px;
-	bottom: 5px;
-	width: 200px;
-	height: 65px;
-}
-
-.logo a{
-	background-size: cover;
-	background-image: url(../img/portfolio.png);
-	display: block;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px; 
-}
-
-
-.item_nav{	
-	font: normal normal bold 18px cursive, sans-serif;
-	position: absolute;
-	left: 200px;
-	right: 200px;
-}
-
-
-/*mengatur menu navigasi horisontal*/
-.item_nav li{
-	display: inline-block;
-	margin-top: 25px;
-	margin-bottom: 15px;
+	font: 20px kaushan,cursive;
+	width: 100px;
+	padding-top: 5px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	box-sizing: border-box;
 }
 
 /*mengatur jarak antar list item navigasi*/
-.item_nav li .menu1{
-	display: inline-block;
+nav ul.item_nav{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+/*mengatur jarak top bottom list item navigasi*/
+nav ul.item_nav li a.menu1{
+	font: 18px/75px cursive,sans-serif;
 	color: black;
-	padding-left: 50px;
-	margin-right: 25px;
 	text-decoration: none;
+
 }
 
-/*mengatur efek psudo class*/
-.item_nav li .menu1:hover{
-	color: lightskyblue;
-}
-
-.item_sosmed{
-	position: absolute;
-	background-color: white;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 800px;
-	padding-left: 20px;
-} 
-
-/*mengatur menu navigasi contact*/
-
-a.iconWA{
+nav ul.item_nav li a.WA{
 	position: absolute;
 	top: 15px;
 	right:100px;
-	display: inline-block;
 	width: 150px;
 	height: 40px;
 	background-color: orange;
@@ -104,13 +59,13 @@ a.iconWA{
 	text-align: center;
 	text-decoration: none;
 	line-height: 40px;
+
 }
 
-a.iconIG{
+nav ul.item_nav li a.IG{
 	position: absolute;
 	top: 18px;
 	right: 50px;
-	display: inline-block;
 	width: 40px;
 	height: 40px;
 	border-radius: 20%;
@@ -122,15 +77,20 @@ a.iconIG{
 	-webkit- filter: grayscale(100%);
 	-ms- filter: grayscale(100%);
 	filter: grayscale(100%);
+
 }
 
-a.iconWA:hover{
+.item_nav li .menu1:hover{
+	color: lightskyblue;
+}
+
+.item_nav li .WA:hover{
 	color: orange;
 	border: 3px solid orange;
 	background-color: white;
 }
 
-a.iconIG:hover{
+.item_nav li .IG:hover{
 	border-radius: 50%;
 	background-color: skyblue;
 	-ms- filter: grayscale(0%);
@@ -140,4 +100,14 @@ a.iconIG:hover{
 	filter: grayscale(0%);
 	filter: brightness(130%);
 }
+
+/* responsive breakpoint */
+
+/*ukuran tablet */
+@media  screen and (max-width: 768px){
+
+	
+}
+
+
 
