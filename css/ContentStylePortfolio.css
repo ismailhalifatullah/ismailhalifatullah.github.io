@@ -4,6 +4,7 @@
 	right: 0px;
 	top: 75px; 
 	height: 500px;
+	background-repeat: no-repeat;
 	background-image: url(../img/coding4.jpg);
 	background-size: cover;
 	background-position: 0 -70px;

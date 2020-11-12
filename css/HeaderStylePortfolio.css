@@ -24,6 +24,7 @@ nav{
 	font: 20px kaushan,cursive;
 	width: 100px;
 	padding-top: 5px;
+	margin-left: 50px;
 	text-align: center;
 	background-color: white;
 	color: black;
@@ -33,7 +34,7 @@ nav{
 /*mengatur jarak antar list item navigasi*/
 nav ul.item_nav{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	width: 50%;
 }
 
@@ -45,11 +46,17 @@ nav ul.item_nav li a.menu1{
 
 }
 
-nav ul.item_nav li a.WA{
-	position: absolute;
-	top: 15px;
-	right:100px;
-	width: 150px;
+nav ul.item_sosmed{
+	display: flex;
+	justify-content: center;
+	width: 30%;
+	margin-right: 50px;
+}
+
+nav ul.item_sosmed li a.WA{
+	margin-top: 15px;
+	margin-right: 20px;
+	width: 100px;
 	height: 40px;
 	background-color: orange;
 	border: 3px solid orange;
@@ -62,10 +69,9 @@ nav ul.item_nav li a.WA{
 
 }
 
-nav ul.item_nav li a.IG{
-	position: absolute;
-	top: 18px;
-	right: 50px;
+nav ul.item_sosmed li a.IG{
+	margin-top: 18px;
+	margin-left: 20px;
 	width: 40px;
 	height: 40px;
 	border-radius: 20%;
@@ -84,13 +90,13 @@ nav ul.item_nav li a.IG{
 	color: lightskyblue;
 }
 
-.item_nav li .WA:hover{
+.item_sosmed li .WA:hover{
 	color: orange;
 	border: 3px solid orange;
 	background-color: white;
 }
 
-.item_nav li .IG:hover{
+.item_sosmed li .IG:hover{
 	border-radius: 50%;
 	background-color: skyblue;
 	-ms- filter: grayscale(0%);
@@ -105,22 +111,18 @@ nav ul.item_nav li a.IG{
 
 /*ukuran tablet */
 @media  screen and (max-width: 768px){
-nav ul.item_nav{
+nav ul.item_nav,{
 	width: 50%;
 }
 	
 }
 
 
-@media  screen and (max-width: 1200px){
-nav ul.item_nav li a.WA{
-	display: none;
-}
-	
-}
 
-@media  screen and (max-width: 670px){
-nav ul.item_nav li a.IG{
+
+@media  screen and (max-width: 700px){
+nav ul.item_sosmed a.WA,
+nav ul.item_sosmed a.IG{
 	display: none;
 }
 	
@@ -128,7 +130,7 @@ nav ul.item_nav li a.IG{
 
 /*ukuran mobile*/
 
-@media  screen and (max-width: 600px){
+@media  screen and (max-width: 650px){
 nav ul.item_nav{
 	display: none;
 }
