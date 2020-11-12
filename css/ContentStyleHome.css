@@ -1,0 +1,78 @@
+.image{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 75px; 
+	height: 500px;
+	background-image: url(../img/computer.jpg);
+	background-size: cover;
+	background-position: 0 -100px;
+}
+
+.content{
+	position: absolute;
+	top: 575px;
+	left: 0px;
+	right: 0px;
+	background-color: red;
+}
+
+.content_container{
+	position: absolute;
+	left: 100px;
+	right: 100px;
+	height: 100%;
+	background-color: cyan;
+}
+
+.content_text{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	display: inline-block;
+	width: 500px;
+	box-sizing: border-box;
+}
+
+.content_text h1{
+	font: bold 25px cursive,sans-serif;
+	text-align: justify;
+}
+
+.content_text p{
+	font: 15px/30px cursive,sans-serif;
+	text-align: justify;
+	word-spacing: 5px;
+}
+
+.image_content{
+	position: absolute;
+	display: inline-block;
+	background-size: cover;
+	background-image: url(../img/coding.jpg);
+	width: 300px;
+	height: 300px;
+	top: 75px;
+	right: 100px;
+	box-sizing: border-box;
+}
+
+
+/* teknik microfix dari website nicolas gallagher */
+	
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* teknik microfix dari website nicolas gallagher */
+
