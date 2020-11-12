@@ -170,6 +170,7 @@ a.iconIG{
 	background-size: 20px;
 	background-image: url(../img/instagram.png);
 	margin-right: auto;
+	-webkit- filter: grayscale(100%);
 	filter: grayscale(100%);
 }
 
@@ -182,6 +183,8 @@ a.iconWA:hover{
 a.iconIG:hover{
 	border-radius: 50%;
 	background-color: skyblue;
+	-webkit- filter: grayscale(0%);
+	-webkit- filter: brightness(130%);
 	filter: grayscale(0%);
 	filter: brightness(130%);
 }
