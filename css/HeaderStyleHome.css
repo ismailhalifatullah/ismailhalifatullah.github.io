@@ -105,9 +105,36 @@ nav ul.item_nav li a.IG{
 
 /*ukuran tablet */
 @media  screen and (max-width: 768px){
-
+nav ul.item_nav{
+	width: 50%;
+}
 	
 }
+
+
+@media  screen and (max-width: 1200px){
+nav ul.item_nav li a.WA{
+	display: none;
+}
+	
+}
+
+@media  screen and (max-width: 670px){
+nav ul.item_nav li a.IG{
+	display: none;
+}
+	
+}
+
+/*ukuran mobile*/
+
+@media  screen and (max-width: 600px){
+nav ul.item_nav{
+	display: none;
+}
+	
+}
+
 
 
 
