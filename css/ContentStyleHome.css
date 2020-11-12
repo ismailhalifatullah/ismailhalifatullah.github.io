@@ -66,24 +66,23 @@ table {
 	top: 600px;
 	left: 0px;
 	right: 0px;
-	background-color: white;
+	background-color: red;
 }
 
-
-/*.content_container{
+.content_container{
 	position: absolute;
 	left: 100px;
 	right: 100px;
 	height: 100%;
-	background-color: white;
-}*/
+	background-color: cyan;
+}
 
 .content_text{
+	position: absolute;
+	left: 100px;
+	top: 100px;
 	display: inline-block;
-	margin: 50px;
 	width: 500px;
-	margin-left: 150px;
-	margin-right: 150px;
 	box-sizing: border-box;
 }
 
@@ -99,12 +98,14 @@ table {
 }
 
 .image_content{
+	position: absolute;
 	display: inline-block;
 	background-size: cover;
 	background-image: url(../img/coding.jpg);
 	width: 300px;
 	height: 300px;
-	margin:	50px;
+	top: 100px;
+	right: 100px;
 	box-sizing: border-box;
 }
 
