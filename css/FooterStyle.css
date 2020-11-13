@@ -1,25 +1,24 @@
 .footer_container{
-	position: absolute;
-	top: 1060px;
-	left: 0px;
-	right: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
 	background-color: #1f1f14;
 	color: grey;
 }
 
 .text_about{
-	display: inline-block;
 	margin: 50px;
+	display: inline-block;
 	width: 300px;
-	margin-left: 150px;
-	margin-right: 150px;
 	box-sizing: border-box;
+	box-sizing: content-box;
 }
 
 .text_about h1{
 	color: skyblue;
 	font: 20px verdana,sans-serif;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .text_about h2{
@@ -42,14 +41,14 @@
 
 .text_contact{
 	display: inline-block;
+	margin: 50px;
 	width: 250px;
-	position: absolute;
-	top: 50px;
 }
 
 .text_contact h1{
 	color: grey;
 	font: normal 20px verdana,sans-serif;
+	text-decoration: underline;
 }
 
 .text_contact h3{
@@ -59,15 +58,14 @@
 
 .text_address{
 	display: inline-block;
+	margin: 50px;
 	width: 250px;
-	position: absolute;
-	top: 50px;
-	left: 950px;
 }
 
 .text_address h1{
 	color: grey;
 	font: normal 20px verdana,sans-serif;
+	text-decoration: underline;
 }
 
 .text_address h2{
@@ -81,39 +79,33 @@
 }
 
 .footer_copyright{
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 1614px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	height: 50px;
 	background: black;
 }
 
 .sub_footer_copy{
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	font: 12px verdana,sans-serif;
 	color: grey;
-	text-decoration: none;
-	width: 80%;
-	margin-left: 100px;
-	margin-right: 100px;
-	padding-top: 17px;
 }
 
-.left{
-	display: inline-block;
-}
-
-.left h1, a{
-	display: inline-block;
-}
-
-.right{
-	margin-left: 500px;
-	display: inline-block;
-}
-
+.left h1, a,
 .right h1, a{
 	display: inline-block;
+}
+
+@media  screen and (max-width: 1000px){
+.footer_container{
+	margin-top: 50px;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
 }
