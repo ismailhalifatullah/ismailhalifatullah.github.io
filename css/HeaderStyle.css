@@ -64,18 +64,19 @@ nav ul.item_sosmed{
 }
 
 nav ul.item_sosmed li a.WA{
-	margin-top: 8px;
-	margin-right: 20px;
-	width: 100px;
+	margin-top: 11px;
+	margin-left: 20px;
+	width: 40px;
 	height: 40px;
-	background-color: orange;
-	border: 3px solid orange;
-	color: white;
-	border-radius : 40%;
-	font: 15px cursive;
-	text-align: center;
-	text-decoration: none;
-	line-height: 40px;
+	border-radius: 20%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40px;
+	background-image: url(../img/iconwa.png);
+	margin-right: auto;
+	-webkit- filter: grayscale(100%);
+	-ms- filter: grayscale(100%);
+	filter: grayscale(100%);
 
 }
 
@@ -87,7 +88,7 @@ nav ul.item_sosmed li a.IG{
 	border-radius: 20%;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 20px;
+	background-size: 27px;
 	background-image: url(../img/instagram.png);
 	margin-right: auto;
 	-webkit- filter: grayscale(100%);
@@ -101,9 +102,14 @@ ul li .menu1:hover{
 }
 
 .item_sosmed li .WA:hover{
-	color: orange;
-	border: 3px solid orange;
-	background-color: white;
+	border-radius: 50%;
+	background-color: skyblue;
+	-ms- filter: grayscale(0%);
+	-ms- filter: brightness(130%);
+	-webkit- filter: grayscale(0%);
+	-webkit- filter: brightness(130%);
+	filter: grayscale(0%);
+	filter: brightness(130%);
 }
 
 .item_sosmed li .IG:hover{
