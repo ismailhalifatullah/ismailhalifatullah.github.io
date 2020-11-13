@@ -1,8 +1,5 @@
 .image{
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 75px; 
+	display: flex; 
 	height: 500px;
 	background-repeat: no-repeat;
 	background-image: url(../img/coding4.jpg);
@@ -21,43 +18,63 @@
 }
 
 .content{
-	position: absolute;
-	top: 575px;
-	left: 0px;
-	right: 0px;
-	background-color: white;
+	margin: auto;
+	width: 1000px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .content_text{
-	display: inline-block;
-	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width: 500px;
-	margin-left: 150px;
-	margin-right: 150px;
-	box-sizing: border-box;
+	height: 500px;
+	padding-right: 100px;
+	
 }
 
 .content_text h1{
+	display: flex;
 	font: bold 25px cursive,sans-serif;
 	text-align: justify;
 }
 
 .content_text p{
+	display: flex;
 	font: 15px/30px cursive,sans-serif;
 	text-align: justify;
 	word-spacing: 5px;
 }
 
 .image_content{
-	display: inline-block;
+	display: flex;
+	justify-content: center;
 	background-size: cover;
 	background-image: url(../img/coding.jpg);
 	width: 300px;
 	height: 300px;
-	margin:	50px;
+	padding left: 100px;
 	box-sizing: border-box;
 }
 
+@media  screen and (max-width: 1000px){
+.content{
+	margin-top: -70px;
+	width: 500px;
+	height: 1000px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+}
+.image_content{
+	margin-left: 90px;
+}
+}
 
 /* teknik microfix dari website nicolas gallagher */
 	

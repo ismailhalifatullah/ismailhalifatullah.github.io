@@ -16,7 +16,7 @@
 	box-sizing: border-box;
 }
 
-.text_about a{
+.text_about h1{
 	color: skyblue;
 	font: 20px verdana,sans-serif;
 	text-decoration: none;
