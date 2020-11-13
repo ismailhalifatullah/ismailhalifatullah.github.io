@@ -196,7 +196,7 @@ nav ul.item_sosmed a.IG{
 
 /*ukuran mobile*/
 
-@media  screen and (max-width: 650px){
+@media  screen and (max-width: 576px){
 .menu_hamburger{
 	top: 0px;
 	display: flex; 
