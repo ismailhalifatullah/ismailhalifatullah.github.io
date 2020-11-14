@@ -184,9 +184,31 @@ ul li .menu1:hover{
 /* responsive breakpoint */
 
 /*ukuran tablet */
-@media  screen and (max-width: 768px){
+@media  screen and (max-width: 1000px){
+.menu_hamburger{
+	top: 0px;
+	display: flex; 
+}
+
 nav ul{
-	width: 50%;
+	/*display: none;*/
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100vh;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	background-color: lightgreen;
+	z-index: -1;
+	transform: translateX(140%);
+	transition: all 0.5s;
+	opacity: 0;
+}
+
+nav ul.slide{
+	transform: translateX(0);
+	opacity: 0.9;
 }
 	
 }
@@ -202,7 +224,7 @@ nav ul.item_sosmed a.IG{
 
 /*ukuran mobile*/
 
-@media  screen and (max-width: 567px){
+@media  screen and (max-width: 678px){
 .menu_hamburger{
 	top: 0px;
 	display: flex; 
