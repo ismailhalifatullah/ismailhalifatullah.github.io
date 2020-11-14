@@ -101,9 +101,14 @@
 	display: inline-block;
 }
 
-@media  screen and (max-width: 567px){
+@media  screen and (max-width: 1000px){
 .footer_container{
 	margin-top: 50px;
+}
+}
+
+@media  screen and (max-width: 567px){
+.footer_container{
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
