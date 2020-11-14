@@ -1,6 +1,6 @@
 body{
 	font: 15px/30px arial, sans-serif;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 	
 }
 
@@ -11,8 +11,6 @@ body{
 	justify-content: center;
 	align-items: stretch;
 	width: 100%;
-	/*height: 200px;*/
-	/*border: 5px solid black;*/
 	/*overflow-x: hidden;*/
 }
 
@@ -32,9 +30,9 @@ nav{
 .logo{
 	font: 20px kaushan,cursive;
 	width: 100px;
-	padding-top: 5px;
 	margin-left: 50px;
 	text-align: center;
+	line-height: 100%;
 	background-color: white;
 	color: black;
 	box-sizing: border-box;
@@ -53,14 +51,13 @@ nav ul li a.menu1{
 	font: 18px/75px cursive,sans-serif;
 	color: black;
 	text-decoration: none;
-
 }
 
 nav ul.item_sosmed{
 	display: flex;
 	justify-content: center;
 	width: 30%;
-	margin-right: 50px;
+	
 }
 
 nav ul.item_sosmed li a.WA{
@@ -186,28 +183,39 @@ ul li .menu1:hover{
 /*ukuran tablet */
 @media  screen and (max-width: 1000px){
 .menu_hamburger{
+	order: 3;
 	top: 0px;
 	display: flex; 
 }
 
+.logo{
+	order: 1;
+}
 
+nav ul.item_sosmed{
+	order: 2;
+}
+	
 nav ul li a.menu1{
 	margin-top: 50px;
 	display: flex;
 	justify-content: flex-start;
 }
-
+	
 nav ul{
 	/*display: none;*/
-	display: block;
+	order: 4;
+	display: flex;
+	flex-direction: column;
 	list-style: circle;
 	text-indent: 30px;
 	position: absolute;
 	right: 0;
 	top: 0;
+	width: 30%;
 	height: 100vh;
-	background-color: white;
-	transform: translateX(140%);
+	background-color: rgb(192, 192, 192);
+	transform: translateX(100%);
 	transition: all 0.5s;
 	opacity: 0;
 }
@@ -216,7 +224,7 @@ nav ul.slide{
 	transform: translateX(0);
 	opacity: 0.9;
 }
-	
+
 }
 /*ukuran mobile*/
 
@@ -234,16 +242,17 @@ nav ul li a.menu1{
 }
 
 nav ul{
-	/*display: none;*/
-	display: block;
+	display: flex;
+	flex-direction: column;
 	list-style: circle;
 	text-indent: 30px;
 	position: absolute;
 	right: 0;
 	top: 0;
+	width: 30%;
 	height: 100vh;
-	background-color: white;
-	transform: translateX(140%);
+	background-color: rgb(192, 192, 192);
+	transform: translateX(100%);
 	transition: all 0.5s;
 	opacity: 0;
 }
