@@ -101,7 +101,7 @@
 	display: inline-block;
 }
 
-@media  screen and (max-width: 1000px){
+@media  screen and (max-width: 567px){
 .footer_container{
 	margin-top: 50px;
 	flex-direction: column;
