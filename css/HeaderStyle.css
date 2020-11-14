@@ -190,8 +190,15 @@ ul li .menu1:hover{
 	display: flex; 
 }
 
+nav ul li a.menu1{
+	display: flex;
+	justify-content: flex-start;
+}
+
 nav ul{
 	/*display: none;*/
+	display: block;
+	margin-top: 50px;
 	list-style: circle;
 	text-indent: 30px;
 	position: absolute;
@@ -199,7 +206,6 @@ nav ul{
 	top: 0;
 	width:45vh;
 	height: 100vh;
-	flex-direction: column;
 	background-color: white;
 	transform: translateX(140%);
 	transition: all 0.5s;
@@ -212,35 +218,35 @@ nav ul.slide{
 }
 	
 }
-
-
-@media  screen and (max-width: 700px){
-nav ul.item_sosmed a.WA,
-nav ul.item_sosmed a.IG{
-	display: none;
-}
-	
-}
-
 /*ukuran mobile*/
 
-@media  screen and (max-width: 678px){
+@media  screen and (max-width: 576px){
 .menu_hamburger{
 	top: 0px;
 	display: flex; 
 }
 
+nav ul.item_sosmed{
+	display: flex;
+}
+
+nav ul li a.menu1{
+	display: flex;
+	justify-content: flex-start;
+}
+
 nav ul{
 	/*display: none;*/
+	display: block;
+	margin-top: 50px;
+	list-style: circle;
+	text-indent: 30px;
 	position: absolute;
 	right: 0;
 	top: 0;
+	width:45vh;
 	height: 100vh;
-	justify-content: space-around;
-	align-items: center;
-	flex-direction: column;
-	background-color: lightgreen;
-	z-index: -1;
+	background-color: white;
 	transform: translateX(140%);
 	transition: all 0.5s;
 	opacity: 0;
@@ -249,4 +255,6 @@ nav ul{
 nav ul.slide{
 	transform: translateX(0);
 	opacity: 0.9;
+}
+	
 }
