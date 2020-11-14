@@ -184,7 +184,7 @@ ul li .menu1:hover{
 /* responsive breakpoint */
 
 /*ukuran tablet */
-@media  screen and (max-width: 768px){
+@media  screen and (min-width: 768px){
 nav ul{
 	width: 50%;
 }
@@ -192,7 +192,7 @@ nav ul{
 }
 
 
-@media  screen and (max-width: 700px){
+@media  screen and (min-width: 700px){
 nav ul.item_sosmed a.WA,
 nav ul.item_sosmed a.IG{
 	display: none;
@@ -202,7 +202,7 @@ nav ul.item_sosmed a.IG{
 
 /*ukuran mobile*/
 
-@media  screen and (max-width: 567px){
+@media  screen and (min-width: 567px){
 .menu_hamburger{
 	top: 0px;
 	display: flex; 
