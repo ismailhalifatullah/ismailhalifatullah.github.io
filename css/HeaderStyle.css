@@ -192,15 +192,15 @@ ul li .menu1:hover{
 
 nav ul{
 	/*display: none;*/
+	list-style: circle;
+	text-indent: 30px;
 	position: absolute;
 	right: 0;
 	top: 0;
+	width:45vh;
 	height: 100vh;
-	justify-content: space-around;
-	align-items: center;
 	flex-direction: column;
-	background-color: lightgreen;
-	z-index: -1;
+	background-color: white;
 	transform: translateX(140%);
 	transition: all 0.5s;
 	opacity: 0;
