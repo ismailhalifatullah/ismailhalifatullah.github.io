@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-family: viga, sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+.nav.navbar{
+    background-color: antiquewhite;
+}
+
+/* Akhr Navbar */  
+
+/* Utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+/* utilities */
+
+/* Jumbotron */
+/* .jumbotron.jumbotron-fluid{
+    background-image: url(img/it.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: 80px;
+} */
+ 
+/* akhir Jombotron */
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .nav-link{
+        color: #000000;
+        text-transform: uppercase;
+        font-weight: 200;
+        margin-right: 50px;
+        text-shadow: 0.5px 0.5px #acacac;
+    }
+
+    .nav-link:hover::after{
+        content: "";
+        display: block;
+        border-bottom: 2px solid blue;
+        width: 50%;
+        margin: auto;
+        margin-bottom: -2px;
+   
+    }
+
+   /* .jumbotron.jumbotron-fluid{
+    background-image: url(img/it.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: 80px;
+    } */
+}

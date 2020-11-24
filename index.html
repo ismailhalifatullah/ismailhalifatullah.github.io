@@ -1,111 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Home | Portfolio</title>
-	<link rel="stylesheet" href="css/StyleFont.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/HeaderStyle.css">
-	<link rel="stylesheet" type="text/css" href="css/ContentStyleHome.css">
-	<link rel="stylesheet" type="text/css" href="css/FooterStyle.css">
-</head>
-<body>
-<div class="container_utama">							
-		<!--main navigation-->
-		<nav>	
-			<!--logo -->
-			<div class="logo">
-					<h1>Ismail Halifatullah</h1>
-			</div>
-				<ul>
-					<li>
-						<a class="menu1" href="index.html">Home</a>
-					</li>
-					<li>
-						<a class="menu1" href="portfolio.html">Portfolio</a>
-					</li>
-					<li>
-						<a class="menu1" href="#aboutme">Contact</a>
-					</li>
-					<li>
-						<a class="menu1" href="#aboutme">About Me</a>
-					</li>
-				</ul>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-				<div class="item_sosmed">
-						<a class="WA" href="https://wa.me/6287781302016" target="_blank"></a>
-						<a class="IG" href="https://www.instagram.com/ismailhalifatullah/" target="_blank"></a>
-				</div>
-			<div class="menu_hamburger">
-				<input type="checkbox">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-		</nav>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
 
-	<!--main image-->
-		<div class="image"></div>
-	<!--main content-->	
-		<div class="content">
-				<div class="content_text">
-				<h1>
-					<center>
-						Welcome to My Personal Website
-					</center>
-				</h1>
-				<br>
-				<p>
-					Website Personal adalah sebuah website yang berisikan beberapa konten informasi yang menggambarkan si pembuat konten website, isi konten website portofolio bisa macam-macam isinya dan tergantung dari latar belakang si pembuat konten web portfolio. Tujuan dibuatnya website portofolio ini adalah untuk memperkenalkan diri dan beberapa informasi tentang saya, di bagian menu navigasi bisa dipilih ada 4 macam menu yaitu home, portfolio, contact dan about yang masing-masing menu tersebut berisi beberapa isi konten informasi.
-				</p>
-			</div>
-			<div class="image_content">	
-			</div>
-		</div>	
-	<!--footer contact-->
-		<div id="aboutme" class="footer_container">
-			<div class="text_about">
-				<h1>About Me</h1>
-				<h2>Ismail Halifatullah. S.Kom</h2>
-				<br>
-				<img src="img/fotoku.jpg" alt="ismail halifatullah">
-				<p>
-					Saya adalah seseorang yang mempunyai pasion di dunia IT, Saya merupakan lulusan Strata 1 dari salah satu perguruan tinggi swasta di Surabaya.
-					Setiap orang yang mempunyai passion di dunia IT pasti mempunyai keahlian programer dan networking. saya memiliki kecenderungan untuk menjadi web developer terutama dalam bidang front-end. saya juga mempunyai minat bakat di dunia networking, saya juga tidak menutup kemungkinan untuk mengupgrade skill saya bila di butuhkan kedepannya. saya seorang yang bisa bekerja sebagai tim maupun individu dan tidak segan bertanya saat tidak mengerti, mempelajari hal baru buat saya hal yang positif karena menambah ilmu di luar bidang kita.
-				</p>
-			</div>
-			<div class="text_contact">
-				<h1>My Contact</h1>
-				<br><br>
-				<h3>No Hp : 087781302016</h3>
-				<br>
-				<h3>Email : ismailhalifatullah@gmail.com</h3>
-			</div>
-			<div class="text_address">
-				<h1>My Address</h1>
-				<br><br>
-				<h2>Domicile :</h2>
-				<h3>Rungkut tengah 1b/19c, Gunung Anyar-60293, Kota Surabaya</h3>
-				<br>
-				<h2>Based on E-ktp :</h2>
-				<h3>Dsn Joho Clumprit 001/002, Sumobito-61483, Kab. Jombang</h3>
-			</div>
-		</div>
-	<!--footer copyright-->
-		<div class="footer_copyright">
-			<div class="sub_footer_copy">
-				<div class="left">
-					<h1>Copyright &copy2020 | This template is made by original developer</h1>
-				</div>
-				<div class="right">
-					<h1>Develope by </h1>
-					<a href="home.html">Ismail Halifatullah</a>
-				</div>
-			</div>
-		</div>
-</div>
+    <title>AdifComp | Home</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">AdifComp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Service</a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item btn btn-primary tombol" href="https://wa.me/6281217401749">Chat Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
 
-	<script src="script.js"></script>
+    <!-- Jumbotron -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/img/it.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-weight: 500; font-size: 40px;">IT SOLUTION</h5>
+            <p style="font-size: 20px; font-weight: 200;">For <span style="font-weight: 500;">Maintenance</span> and <span style="font-weight: 500;">Services</span></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-weight: 500; font-size: 40px;">IT SOLUTION</h5>
+            <p style="font-size: 20px; font-weight: 200;"></p>For <span style="font-weight: 500;">Creator Website </span>Business</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="font-weight: 500; font-size: 40px;">IT SOLUTION</h5>
+            <p style="font-size: 20px; font-weight: 200;">For <span style="font-weight: 500;">Product Accessories IT</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </div> -->
+    <!-- Akhir Jumbotron -->
 
-</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
