@@ -1,9 +1,5 @@
-/**
-* Template Name: Anyar - v2.2.1
-* Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+
 !(function($) {
   "use strict";
 
@@ -150,6 +146,14 @@
       scrollTop: 0
     }, 1500, 'easeInOutExpo');
     return false;
+  });
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.wafixed').fadeIn('slow');
+    } else {
+      $('.wafixed').fadeOut('slow');
+    }
   });
 
   // Intro carousel
