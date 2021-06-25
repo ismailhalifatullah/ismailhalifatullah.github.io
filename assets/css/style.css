@@ -894,6 +894,7 @@ section {
   padding: 140px 0;
   background: url("../img/about-bg.png") top center no-repeat;
   position: relative;
+  background-repeat: repeat;
 }
 
 .services:before {
