@@ -1,9 +1,3 @@
-/**
-* Template Name: Anyar - v2.2.1
-* Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -241,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     top: 0;
     padding: 15px 0;
-    background: transparent;
+    background: rgba(5, 87, 158, 0.9);
   }
   #header .logo {
     font-size: 28px;
