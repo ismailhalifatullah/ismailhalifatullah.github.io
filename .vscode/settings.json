@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "off",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+}
