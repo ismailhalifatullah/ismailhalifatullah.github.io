@@ -695,7 +695,7 @@ section {
   color: #848484;
 }
 
-.why-us .video-box {
+.why-us .video-box img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -846,6 +846,8 @@ section {
 }
 
 @media (max-width: 1024px) {
+
+  .why-us .video-box img {}
 
   .why-us .content,
   .why-us .accordion-list {
