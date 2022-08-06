@@ -1237,7 +1237,8 @@ section {
   right: 0;
 }
 
-.contact .container {
+#contact .container {
+  margin-top: 131px;
   position: relative;
 }
 
