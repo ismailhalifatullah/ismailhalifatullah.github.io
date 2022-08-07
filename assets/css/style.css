@@ -515,6 +515,25 @@ h6 {
   #hero .carousel-container .carousel-item img {
     height: 400px;
   }
+
+  #hero .carousel-container .carousel-item img,
+  #hero .carousel-container .carousel-item.active img {
+    height: 350px;
+  }
+
+  #hero {
+    padding-bottom: 0px;
+
+  }
+
+  #hero::before {
+    margin-bottom: 210px;
+
+  }
+
+  #about {
+    margin-top: -210px;
+  }
 }
 
 @media (max-width: 450px) {
