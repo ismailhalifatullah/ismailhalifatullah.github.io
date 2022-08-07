@@ -505,6 +505,10 @@ h6 {
   #about {
     margin-top: -110px;
   }
+
+  #portfolio {
+    margin-top: -110px;
+  }
 }
 
 @media (max-width: 993px) {
@@ -534,6 +538,10 @@ h6 {
   #about {
     margin-top: -210px;
   }
+
+  #portfolio {
+    margin-top: -210px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -557,6 +565,10 @@ h6 {
   }
 
   #about {
+    margin-top: -360px;
+  }
+
+  #portfolio {
     margin-top: -360px;
   }
 
