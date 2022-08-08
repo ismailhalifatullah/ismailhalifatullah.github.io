@@ -1176,6 +1176,11 @@ section {
   position: relative;
 }
 
+#contact .gmap_canvas iframe {
+  width: 635px;
+  height: 530px;
+}
+
 .contact:before {
   content: "";
   background: rgba(255, 255, 255, 0.7);
@@ -1227,6 +1232,48 @@ section {
 .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
+}
+
+@media (max-width: 1120px) {
+  #contact .gmap_canvas iframe {
+    width: 535px;
+    height: 430px;
+  }
+}
+
+@media (max-width: 650px) {
+  #contact .gmap_canvas iframe {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 520px) {
+  #contact .gmap_canvas iframe {
+    width: 450px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 470px) {
+  #contact .gmap_canvas iframe {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 470px) {
+  #contact .gmap_canvas iframe {
+    width: 320px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 280px) {
+  #contact .gmap_canvas iframe {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 @-webkit-keyframes animate-loading {
